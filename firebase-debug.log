@@ -1,0 +1,51 @@
+[debug] [2023-09-22T07:35:43.973Z] ----------------------------------------------------------------------
+[debug] [2023-09-22T07:35:43.974Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\simba\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2023-09-22T07:35:43.974Z] CLI Version:   9.9.0
+[debug] [2023-09-22T07:35:43.974Z] Platform:      win32
+[debug] [2023-09-22T07:35:43.975Z] Node Version:  v14.21.3
+[debug] [2023-09-22T07:35:43.975Z] Time:          Fri Sep 22 2023 09:35:43 GMT+0200 (South Africa Standard Time)
+[debug] [2023-09-22T07:35:43.975Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-22T07:35:43.980Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-22T07:35:43.980Z] > authorizing via signed-in user (lianamaponga7@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Angular\project
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using my-app-79d96. 
+[debug] [2023-09-22T07:35:47.696Z] > refreshing access token with scopes: []
+[debug] [2023-09-22T07:35:47.696Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2023-09-22T07:35:48.286Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 22 Sep 2023 07:35:48 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2023-09-22T07:35:48.320Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-app-79d96 [none]
+[debug] [2023-09-22T07:35:49.197Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-app-79d96 200
+[debug] [2023-09-22T07:35:49.197Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-app-79d96 {"projectId":"my-app-79d96","projectNumber":"175077366771","displayName":"my-app","name":"projects/my-app-79d96","resources":{"hostingSite":"my-app-79d96","realtimeDatabaseInstance":"my-app-79d96-default-rtdb"},"state":"ACTIVE","etag":"1_a6624c2b-af56-4ea5-bb38-174518de887c"}
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Angular\project is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=894986029&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
